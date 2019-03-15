@@ -84,7 +84,6 @@ public class Rectangle extends AbstractFigures {
         return doubleSquare(minusX(FIRST_SIZE), minusY(FIRST_SIZE));
     }
 
-    @Override
     public double getValue() {
         if (diagonol() != extent(FIRST_SIZE) || diagonol() != extent(differentFirst())) {
             throw new IllegalArgumentException("직각 사각형으로 만들어 주십시오.");
